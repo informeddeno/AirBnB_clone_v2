@@ -49,7 +49,7 @@ def split_curly_braces(e_arg):
                 attr_value = commands[2]
             except Exception:
                 return id, attr_name
-            return f"{id}", f"{attr_name} {attr_value}"
+            return f{id}, f"{attr_name} {attr_value}"
 
 class HBNBCommand(cmd.Cmd):
     """
