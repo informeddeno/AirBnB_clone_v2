@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+B11;rgb:0000/0000/0000#!/usr/bin/python3
 """This module defines a class to manage file storage for hbnb clone"""
 import json
 from models.base_model import BaseModel
@@ -71,8 +71,7 @@ class FileStorage:
            the method should not do anything
         """
         if obj is None:
-            return
-        obj_to_del = f {obj.__class__.__name__}.{obj.id}
+            pass       
 
         try:
             del FileStorage.__objects[obj_to_del]
