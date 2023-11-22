@@ -138,7 +138,7 @@ class HBNBCommand(cmd.Cmd):
                 try:
                     value = eval(value)
                 except Exception:
-                    print(f"** couldnt evaluate {value}")
+                    print(f"** couldnt evaluate {value}/")
                     pass
             if hasattr(new_instance, key):
                 setattr(new_instance, key, value)
