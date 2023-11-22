@@ -1,4 +1,4 @@
-B11;rgb:0000/0000/0000#!/usr/bin/python3
+#!/usr/bin/python3
 """This module defines a class to manage file storage for hbnb clone"""
 import json
 from models.base_model import BaseModel
