@@ -4,9 +4,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/', strict_slashes=False)
+@app.route('/airbnb-onepage/', strict_slashes=False)
 def hello_hbnb():
-    """ Prints a Message when / is called """
+    """ Prints a Message when /airbnb-onepage/ is called """
     return 'Hello HBNB!'
 
 if __name__ == "__main__":
